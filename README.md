@@ -51,15 +51,16 @@ Ensure you have the following installed on your system:
 
 To start the development server, run:
 
-````bash
-npm start
+    ````bash
+    npm start
 
 The application will be accessible at http://localhost:3000.
 
 ### Build for Production
 
 To create a production-ready build of the project, run:
-```bash
+
+````bash
 npm run build
 The production files will be located in the build/ directory.
 
@@ -77,15 +78,22 @@ The production files will be located in the build/ directory.
     └── README.md # Project documentation
 
 ### API Reference
+
 The application fetches restaurant data from MockAPI:
 
     ```arduino
     https://6790ef10af8442fd737861ef.mockapi.io/sekawan-media-api/restaurants
 
-
 ### License
+
 This project is licensed under the MIT License.
 
 ### Author
+
 Eki Iman Jordiansyah
+
 ````
+
+```
+
+```
