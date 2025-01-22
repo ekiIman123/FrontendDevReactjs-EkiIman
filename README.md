@@ -55,7 +55,7 @@ To start the development server, run:
 npm start
 ```
 
-The application will be accessible at http://localhost:3000.
+The application will be accessible at http://localhost:5173.
 
 ### Build for Production
 
@@ -70,24 +70,30 @@ The production files will be located in the build/ directory.
 ### Project Structure
 
     restaurant-list/
-    ├── public/ # Public files (index.html, favicon, etc.)
+    ├── public/
     ├── src/
-    │ ├── components/ # Reusable React components
-    │ ├── App.js # Main application component
-    │ ├── index.js # Application entry point
-    │ └── styles/ # Tailwind CSS and custom styles
-    ├── package.json # Project dependencies and scripts
-    └── README.md # Project documentation
+    │ ├── components/
+    │ ├── pages/
+    │ ├── utils/
+    │ ├── App.js
+    │ ├── index.css
+    │ ├── main.jsx
+    │ └── styles/
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    └── vite.config.js
 
 ### API Reference
 
 The application fetches restaurant data from MockAPI:
 
     https://6790ef10af8442fd737861ef.mockapi.io/sekawan-media-api/restaurants
-
-### License
-
-This project is licensed under the MIT License.
 
 ### Author
 
