@@ -69,7 +69,6 @@ The production files will be located in the build/ directory.
 
 ### Project Structure
 
-    ```
     restaurant-list/
     ├── public/ # Public files (index.html, favicon, etc.)
     ├── src/
@@ -79,15 +78,12 @@ The production files will be located in the build/ directory.
     │ └── styles/ # Tailwind CSS and custom styles
     ├── package.json # Project dependencies and scripts
     └── README.md # Project documentation
-    ```
 
 ### API Reference
 
 The application fetches restaurant data from MockAPI:
 
-    ```
     https://6790ef10af8442fd737861ef.mockapi.io/sekawan-media-api/restaurants
-    ```
 
 ### License
 
