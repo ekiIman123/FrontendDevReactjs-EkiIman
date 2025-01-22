@@ -69,7 +69,7 @@ The production files will be located in the build/ directory.
 
 ### Project Structure
 
-    ```graphql
+    ```
     restaurant-list/
     ├── public/ # Public files (index.html, favicon, etc.)
     ├── src/
@@ -85,7 +85,7 @@ The production files will be located in the build/ directory.
 
 The application fetches restaurant data from MockAPI:
 
-    ```arduino
+    ```
     https://6790ef10af8442fd737861ef.mockapi.io/sekawan-media-api/restaurants
     ```
 
