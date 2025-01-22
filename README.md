@@ -51,7 +51,7 @@ Ensure you have the following installed on your system:
 
 To start the development server, run:
 
-    ````bash
+    ```bash
     npm start
 
 The application will be accessible at http://localhost:3000.
