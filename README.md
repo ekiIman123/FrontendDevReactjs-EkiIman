@@ -22,7 +22,7 @@ Follow these steps to run the project on your local machine:
 Ensure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/) (version 16.14.0 or higher)
-- [npm](https://www.npmjs.com/) (bundled with Node.js) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/) (bundled with Node.js)
 
 ---
 
@@ -52,7 +52,7 @@ Ensure you have the following installed on your system:
 To start the development server, run:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The application will be accessible at http://localhost:5173.
